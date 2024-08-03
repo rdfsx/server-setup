@@ -35,6 +35,9 @@ Add these lines
 AllowUsers www
 PermitRootLogin no
 PasswordAuthentication no
+UsePAM no
+PubkeyAuthentication yes
+ChallengeResponseAuthentication no
 ```
 
 ```
